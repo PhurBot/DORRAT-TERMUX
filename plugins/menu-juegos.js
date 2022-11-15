@@ -121,7 +121,6 @@ readmore: readMore
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
 let str = `
-
 –ㅤㅤㅤ  𝙋𝙃𝙐𝙍𝙕𝙔𝙏𝙀 𝘽𝙊𝙏ㅤㅤㅤ  –
 ㅤ
 
