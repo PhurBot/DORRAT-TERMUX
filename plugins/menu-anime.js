@@ -59,12 +59,20 @@ readmore: readMore
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 let str = `
-┌──「𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-」─
-├➢ 𝐇𝐎𝐋𝐀 ${name}💖✨ 
-├➢ 📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}
-├➢ ⏱️ 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
-├➢ 📊 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}
-└────ׂ─ׂ─ׂ─ׂ───
+ㅤ
+ㅤㅤㅤ–  𝙋𝙃𝙐𝙍𝙕𝙔𝙏𝙀 𝘽𝙊𝙏
+ㅤ
+
+일곱ㅤhi! ${name}
+
+ㅤㅤㅤ· FECHA: ${week}, ${date}
+ㅤㅤㅤ· TIEMPO ACTIVO: ${uptime}
+ㅤㅤㅤ· USUARIOS: ${rtotalreg}
+ㅤ
+ㅤ
+ㅤㅤㅤ.  .  .  .  .  .  .  .  .  .  .  .
+ㅤ
+ㅤ
 ┌──「⛩️𝐀𝐍𝐈𝐌𝐄𝐒」─
 ├➢🎎${usedPrefix}cristianoronaldo
 ├➢🌃${usedPrefix}messi
