@@ -8,7 +8,7 @@ try {
 } finally {
 let name = await conn.getName(m.sender)
 let str = `
-*_ミ💖 𝙷𝙾𝙻𝙰 ${name} 💖彡_*
+일곱ㅤhi! ${name}
 
 ㅤㅤ *🗳️<ℂ𝔸𝕁𝔸 𝔽𝕌𝔼ℝ𝕋𝔼/>🔐*
 
