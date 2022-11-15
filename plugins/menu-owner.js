@@ -117,12 +117,16 @@ readmore: readMore
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
 let str = `
-┌──「†𝐃⃟𝕺𝐑⃯𝐑𝐇⃯𝚵𝐓᪣𝕭⃯𝚹⃯𝐓⃤†」─
-├❏ ๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ ${name}💖✨ 
-├❏ 🔰 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}
-├❏ 🔋𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
-├❏ 📊 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}
-└────ׂ─ׂ─ׂ─ׂ───
+푸르     hi! ${name}
+
+ㅤ· FECHA: ${week}, ${date}
+
+ㅤ· TIEMPO ACTIVO: ${uptime}
+
+ㅤ· USUARIOS: ${rtotalreg}
+
+ㅤㅤㅤㅤㅤㅤ. . .
+
 ┌──「💎𝐎𝐖𝐍𝐄𝐑 𝐁𝐎𝐓」─
 ├❏👑${usedPrefix}cajafuerte
 ├❏💸${usedPrefix}enable restrict
