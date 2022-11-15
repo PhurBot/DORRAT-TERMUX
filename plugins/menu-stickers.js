@@ -125,8 +125,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
     
 
 let str = `
-
-ㅤㅤㅤ–  𝙋𝙃𝙐𝙍𝙕𝙔𝙏𝙀 𝘽𝙊𝙏
+–ㅤㅤㅤ  𝙋𝙃𝙐𝙍𝙕𝙔𝙏𝙀 𝘽𝙊𝙏ㅤㅤㅤ  –
 ㅤ
 
 일곱ㅤhi! ${username}
