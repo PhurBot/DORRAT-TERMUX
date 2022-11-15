@@ -26,12 +26,9 @@ let { min, xp, max } = xpRange(level, global.multiplier)
 const sections = [{
 title: comienzo + ' 🔰 𝐼𝑁𝐹𝑂 𝐷𝑂𝑅𝑅𝐴𝑇-𝐵𝑂𝑇 🔰 ' + fin,
 rows: [
-{title: "│🤴│𝐍𝐔𝐌𝐄𝐑𝐎 𝐃𝐄 𝐌𝐈 𝐂𝐑𝐄𝐀𝐃𝐎𝐑", description: "𝚖𝚞𝚎𝚜𝚝𝚛𝚊 𝚕𝚘𝚜 𝚗ú𝚖𝚎𝚛𝚘𝚜 𝚍𝚎 𝚖𝚒 𝚌𝚛𝚎𝚊𝚍𝚘𝚛", rowId: `${usedPrefix}creator`},  
-{title: "│🏓│𝐈𝐍𝐅𝐎𝐁𝐎𝐓", description: "𝚖𝚞𝚎𝚜𝚝𝚛𝚊 𝚕𝚊 𝚕𝚒𝚜𝚝𝚊 𝚍𝚎 𝚒𝚗𝚏𝚘𝚋𝚘𝚝", rowId: `${usedPrefix}infobot`},
-{title: "│☄️│𝐌𝐄𝐍𝐔 𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐎", description: "𝙼𝚞𝚎𝚜𝚝𝚛𝚊 𝚕𝚊 𝚕𝚒𝚜𝚝𝚊 𝚍𝚎 𝚖𝚎𝚗𝚞 𝚌𝚘𝚖𝚙𝚕𝚎𝚝𝚘", rowId: `${usedPrefix}allmenu`},
-{title: "│🤖│𝐆𝐑𝐔𝐏𝐎 𝐎𝐅𝐈𝐂𝐈𝐀𝐋 𝐃𝐄𝐋 𝐁𝐎𝐓", description: "𝚖𝚞𝚎𝚜𝚝𝚛𝚊 𝚕𝚘𝚜 𝚐𝚛𝚞𝚙𝚘𝚜 𝚘𝚏𝚒𝚌𝚒𝚊𝚕𝚎𝚜 𝚍𝚎𝚕 𝚋𝚘𝚝", rowId: `${usedPrefix}grupos`},
-{title: "│🖥️│𝐒𝐄𝐑 𝐒𝐔𝐁-𝐁𝐎𝐓", description: "𝙹𝙰𝙳𝙸𝙱𝙾𝚃 𝙼𝚄𝙻𝚃𝙸𝙳𝙸𝚅𝙸𝙲𝙴", rowId: `${usedPrefix}jadibot`},
-{title: "│🔰│𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐑-𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓", description: "INFORMACIÓN PARA INSTALAR A DORR∆T-BOT", rowId: `${usedPrefix}instalarbot`}
+{title: "𝐍𝐔𝐌𝐄𝐑𝐎 𝐃𝐄 𝐌𝐈 𝐂𝐑𝐄𝐀𝐃𝐎𝐑", description: "𝚖𝚞𝚎𝚜𝚝𝚛𝚊 𝚕𝚘𝚜 𝚗ú𝚖𝚎𝚛𝚘𝚜 𝚍𝚎 𝚖𝚒 𝚌𝚛𝚎𝚊𝚍𝚘𝚛", rowId: `${usedPrefix}creator`},  
+{title: "𝐈𝐍𝐅𝐎𝐁𝐎𝐓", description: "𝚖𝚞𝚎𝚜𝚝𝚛𝚊 𝚕𝚊 𝚕𝚒𝚜𝚝𝚊 𝚍𝚎 𝚒𝚗𝚏𝚘𝚋𝚘𝚝", rowId: `${usedPrefix}infobot`},
+{title: "𝐌𝐄𝐍𝐔 𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐎", description: "𝙼𝚞𝚎𝚜𝚝𝚛𝚊 𝚕𝚊 𝚕𝚒𝚜𝚝𝚊 𝚍𝚎 𝚖𝚎𝚗𝚞 𝚌𝚘𝚖𝚙𝚕𝚎𝚝𝚘", rowId: `${usedPrefix}allmenu`},
 
 ]},{
 title: comienzo + ' 💲 𝐌𝐄𝐍𝐔 𝐄𝐂𝐎𝐍𝐎𝐌𝐈𝐀 💲' + fin,
@@ -83,29 +80,25 @@ let name = await conn.getName(m.sender)
 const listMessage = {
       
 text: `
-┏─────────────────────⬣\n│${ucapan()}\n│💚•.¸💚¸.• *${name}* •.¸💚¸.•💚\n┗───────────────────── ⳹
+일곱ㅤhi! ${username}
 
-╔═══〔 *${wm}* 〕═══⬣
-║ ⏱️ ▢ *Hora*    
-║ ⌚ ▢ ${time}   
+
+ㅤㅤ· FECHA: ${week}, ${date}
+
 ║┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-║ ⚡ ▢ *Activo durante*
-║ ⚡ ▢ ${uptime}
+
+· TIEMPO ACTIVO: ${uptime}
+
 ║┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-║ 💎 ▢ *Versión de 𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃*
-║ 💎 ▢ ${vs}
-║ 🔳 ▢ Library:
-║ 🖥️ ▢ ${library}
-║┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-║ 👥 ▢ *Usuario(s)*
-║ 💫 ▢ ${Object.keys(global.db.data.users).length} 
-║┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-╚══════════════════⬣`, footer: `${wm}`, 
+
+ㅤㅤ· USUARIOS: ${rtotalreg
+
+
 //${name} ${ucapan()}
 
 title: null,
 
-buttonText: "🔰 𝗦𝗘𝗟𝗘𝗖𝗖𝗜𝗢𝗡𝗘 𝗔𝗤𝗨𝗜 🔰", 
+buttonText: "𝗦𝗘𝗟𝗘𝗖𝗖𝗜𝗢𝗡𝗘 𝗔𝗤𝗨𝗜", 
 
 sections }
 
@@ -140,29 +133,29 @@ function ucapan() {
 
   const time = moment.tz('America/Los_Angeles').format('HH')  //America/Los_Angeles  Asia/Jakarta   America/Toronto
 
-  let res = "🌉Buenas madrugadas"
+  let res = "Buenas madrugadas"
 
   if (time >= 4) {
 
-    res = "🌇Buenos Días"
+    res = "Buenos Días"
 
   }
 
   if (time >= 11) {
 
-    res = "🏙️Buenas Tardes"
+    res = "Buenas Tardes"
 
   }
 
   if (time >= 15) {
 
-    res = "🌆Buenas tardes"
+    res = "Buenas tardes"
 
   }
 
   if (time >= 17) {
 
-    res = "🌃Buenas noches"
+    res = "Buenas noches"
 
   }
 
